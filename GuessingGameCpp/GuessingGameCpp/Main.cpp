@@ -23,7 +23,7 @@ int main() {
 	vector<char> vowels = { 'a', 'e', 'i', 'o', 'u' };
 	vector<char> consonants = { 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z' };
 	do {
-		cout << "MENU\n----" << endl;
+		cout << "\nMENU\n----" << endl;
 		cout << "1.Guess The Number" << endl;
 		cout << "2.Guess The Alphabet" << endl;
 		cout << "3.Total Score" << endl;
