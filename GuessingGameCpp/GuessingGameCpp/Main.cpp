@@ -319,10 +319,10 @@ int main() {
 		case 4://Credit
 			cout << "Students names & IDs: " << endl;
 			cout << "Gulsu Oz: " << endl;
-			cout << "Omer Akce: " << endl;
-			cout << "Emre:  " << endl;
-			cout << "Huseyin Murat: " << endl;
-			cout << "Edar: " << endl;
+			cout << "Omer Akce: 200209045" << endl;
+			cout << "Yunus Emre Bektas: 200209043" << endl;
+			cout << "Huseyin Murat: 200209028 " << endl;
+			cout << "Edar Erdem: 200209002 " << endl;
 			cout << "Ismail Basar Ekinci: 200209054 " << endl;
 			cout << "Course of Study: Software Engineering" << endl;
 
