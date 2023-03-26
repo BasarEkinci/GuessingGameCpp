@@ -72,12 +72,12 @@ int main() {
 							guessTheNumberScore += 5;
 							cout << "Correct!You've won the game with just " << counter << " times." << endl;
 						}
-						else if (guessNumber <= randomNumber) {
+						else if (guessNumber < randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << " Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessNumber >= randomNumber) {
+						else if (guessNumber > randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
@@ -111,12 +111,12 @@ int main() {
 							cout << "Correct! You've won the game with just " << counter << " times." << endl;
 							guessTheNumberScore += 10;
 						}
-						else if (guessNumber <= randomNumber) {
+						else if (guessNumber < randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << " Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessNumber >= randomNumber) {
+						else if (guessNumber > randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
@@ -148,12 +148,12 @@ int main() {
 							cout << "Correct! You've won the game with just " << counter << " times." << endl;
 							guessTheNumberScore += 15;
 						}
-						else if (guessNumber <= randomNumber) {
+						else if (guessNumber < randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << " Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessNumber >= randomNumber) {
+						else if (guessNumber > randomNumber) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
@@ -206,12 +206,12 @@ int main() {
 							guessTheAlphabetScore += 5;
 							cout << "Correct!You've won the game with just " << counter << " times." << endl;
 						}
-						else if (guessChar <= randomChar) {
+						else if (guessChar < randomChar) {
 							wrongRight--;
 							counter++;
 							cout << " Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessChar >= randomChar) {
+						else if (guessChar > randomChar) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
@@ -245,12 +245,12 @@ int main() {
 							guessTheAlphabetScore += 10;
 							cout << "Correct!You've won the game with just " << counter << " times." << endl;
 						}
-						else if (guessChar <= randomChar) {
+						else if (guessChar < randomChar) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessChar >= randomChar) {
+						else if (guessChar > randomChar) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
@@ -283,12 +283,12 @@ int main() {
 							guessTheAlphabetScore += 15;
 							cout << "Correct!You've won the game with just " << counter << " times." << endl;
 						}
-						else if (guessChar <= randomChar) {
+						else if (guessChar < randomChar) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was too low!\n" << endl;
 						}
-						else if (guessChar >= randomChar) {
+						else if (guessChar > randomChar) {
 							wrongRight--;
 							counter++;
 							cout << "Wrong! Your guess was to high!\n" << endl;
