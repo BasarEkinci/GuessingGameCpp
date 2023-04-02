@@ -114,12 +114,12 @@ int main() {
 						else if (guessNumber < randomNumber) {
 							wrongRight--;
 							counter++;
-							cout << " Wrong! Your guess was too low!\n" << endl;
+							cout << " Wrong!\n" << endl;
 						}
 						else if (guessNumber > randomNumber) {
 							wrongRight--;
 							counter++;
-							cout << "Wrong! Your guess was to high!\n" << endl;
+							cout << "Wrong!\n" << endl;
 						}
 						if (wrongRight == 0) {
 							cout << "You lost the game! " << endl;
@@ -151,12 +151,12 @@ int main() {
 						else if (guessNumber < randomNumber) {
 							wrongRight--;
 							counter++;
-							cout << " Wrong! Your guess was too low!\n" << endl;
+							cout << " Wrong!\n" << endl;
 						}
 						else if (guessNumber > randomNumber) {
 							wrongRight--;
 							counter++;
-							cout << "Wrong! Your guess was to high!\n" << endl;
+							cout << "Wrong!\n" << endl;
 						}
 						else if (wrongRight == 0) {
 							cout << "You lost the game ! " << endl;
